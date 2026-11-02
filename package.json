@@ -1,4 +1,4 @@
-{
+{ "homepage": "https://Yeonsuu.github.io/daily_uniform_manager",
   "name": "daily_uniform_manager",
   "version": "0.1.0",
   "private": true,
@@ -12,13 +12,16 @@
     "react-dom": "^19.3.1",
     "react-scripts": "5.0.1",
     "recharts": "^3.10.1",
+    "tailwindcss": "^4.3.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
